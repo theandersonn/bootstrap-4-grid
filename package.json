@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-4-grid",
+  "version": "1.0.0",
+  "description": "Only grid bootstrap 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theandersonn/bootstrap-4-grid.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "bootstrap",
+    "4",
+    "grid"
+  ],
+  "author": "theandersonn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theandersonn/bootstrap-4-grid/issues"
+  },
+  "homepage": "https://github.com/theandersonn/bootstrap-4-grid#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
