@@ -4,7 +4,9 @@
   "description": "Only grid bootstrap 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-sass --watch ./scss -o ./css --output-style",
+    "build": "node-sass --watch ./scss -o ./css --output-style compressed"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,6 @@
   },
   "homepage": "https://github.com/theandersonn/bootstrap-4-grid#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.2"
+    "node-sass": "^4.12.0"
   }
 }
