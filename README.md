@@ -35,6 +35,9 @@
 }
 ```
 
+## Suport Browsers
+IE 10
+
 ## How to use npm tasks (This step is optional) 
 
 1. Download the repository
