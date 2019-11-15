@@ -44,11 +44,8 @@ IE 10
 2. Install dependencies (npm install)
 
 **Task listing**
-- npm run dev (converts scss to css)
+- npm start (converts scss to css)
 - npm run build (css compressed)
-
-## Questions
-If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/bootstrap-4-grid/issues/new) and explain your difficulty.
 
 ## References
 - [Bootstrap - Documentation](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)

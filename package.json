@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node-sass --watch ./scss -o ./css --output-style",
+    "start": "node-sass --watch ./scss -o ./css --output-style",
     "build": "node-sass --watch ./scss -o ./css --output-style compressed"
   },
   "repository": {
@@ -20,7 +20,7 @@
     "grid"
   ],
   "author": "theandersonn",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/theandersonn/bootstrap-4-grid/issues"
   },
