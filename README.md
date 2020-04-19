@@ -1,7 +1,9 @@
 # Bootstrap 4 - Grid
+
 > Bootstrap v4.3.1 grid only styles
 
 ## Cheatsheet
+
 ```txt
 .container
 .container-fluid
@@ -16,7 +18,7 @@
 .col /* equal width cols, same on all screen sizes */
 .col-* /* responsive equal width cols, can be sm, md, lg, or xl */
 
-.no-gutters 
+.no-gutters
 .offset-*-# /* example (.offset-lg-5) */
 
 .order-#
@@ -35,22 +37,32 @@
 }
 ```
 
+## how to modify container width
+
+```txt
+# Change the variable in: grid/_variables.scss
+$container-max-widths
+```
+
 ## Suport Browsers
+
 IE 10
 
-## How to use npm tasks (This step is optional) 
+## How to use npm tasks (This step is optional)
 
 1. Download the repository
 2. Install dependencies (npm install)
 
 **Task listing**
-- npm start (converts scss to css)
+
+- npm dev (converts scss to css)
 - npm run build (css compressed)
 
 ## References
+
 - [Bootstrap - Documentation](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
 - [Bootstrap - Code](https://github.com/twbs/bootstrap)
 
-
 ## License
+
 [MIT](https://github.com/theandersonn/bootstrap-4-grid/blob/master/LICENSE.md) © [Anderson Nascimento](https://github.com/theandersonn)
